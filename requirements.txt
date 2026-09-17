@@ -6,4 +6,3 @@ tqdm>=4.65
 pyyaml>=6.0
 typer>=0.9
 rich>=13.0
-vaderSentiment>=3.3

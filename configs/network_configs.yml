@@ -13,28 +13,10 @@ data:
   chunk_overlap: 30            # token overlap between consecutive chunks
   min_lyrics_length: 20        # drop songs with fewer characters than this
 
-# Training pair generation (data_generator.py)
-pairs:
-  mood_tagger: "vader"         # options: "vader" | "llm"
-  negatives_per_positive: 4    # number of sampled negative pairs per positive
-  val_split: 0.1
-
-# Training (train.py)
-train:
-  batch_size: 64
-  epochs: 10
-  lr: 2e-5
-  warmup_steps: 500
-  loss: "infonce"              # options: "infonce" | "cosine_triplet"
-  temperature: 0.05            # used if loss == "infonce"
-  margin: 0.3                  # used if loss == "cosine_triplet"
-  checkpoint_dir: "checkpoints"
-  eval_every_n_steps: 200
-  device: "auto"                # "auto" | "cpu" | "cuda" | "mps"
-
-# Evaluation (evaluate.py, metrices.py)
+# Evaluation (evaluate.py) - qualitative test queries
 eval:
   top_k: [1, 5, 10]
+  device: "auto"                # "auto" | "cpu" | "cuda" | "mps"
 
 # Inference / search index (inference.py)
 index:
