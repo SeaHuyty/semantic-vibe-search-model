@@ -126,3 +126,71 @@ Query: patriotic song about war and sacrifice
 │    9 │ Ray Charles   │ America The Beautiful     │ 0.5749 │
 │   10 │ Donna Summer  │ From A Distance           │ 0.5745 │
 └──────┴───────────────┴───────────────────────────┴────────┘
+
+Query: khmer song 2026
+                        Search Results                         
+┏━━━━━━┳━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┓
+┃ Rank ┃ Artist           ┃ Song                     ┃  Score ┃
+┡━━━━━━╇━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━┩
+│    1 │ Oasis            │ Manuk Dadali             │ 0.4851 │
+│    2 │ Michael W. Smith │ We Can't Wait Any Longer │ 0.4669 │
+│    3 │ Dewa 19          │ Kasidah Cinta            │ 0.4570 │
+│    4 │ Kyla             │ Now And Forever          │ 0.4430 │
+│    5 │ Freddie Aguilar  │ Bulag, Pipi At Bingi     │ 0.4396 │
+│    6 │ Ariel Rivera     │ Ayoko Na Sana            │ 0.4317 │
+│    7 │ Yes              │ The Calling              │ 0.4251 │
+│    8 │ Freddie Aguilar  │ Minamahal Kita           │ 0.4244 │
+│    9 │ Freddie Aguilar  │ Sinasaktan               │ 0.4228 │
+│   10 │ Imago            │ Walang Misteryo          │ 0.4226 │
+└──────┴──────────────────┴──────────────────────────┴────────┘
+
+Query: modern k-pop dance track
+                       Search Results                        
+┏━━━━━━┳━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┓
+┃ Rank ┃ Artist        ┃ Song                      ┃  Score ┃
+┡━━━━━━╇━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━┩
+│    1 │ Lady Gaga     │ Just Dance                │ 0.5969 │
+│    2 │ Vanilla Ice   │ Dancin'                   │ 0.5691 │
+│    3 │ Kylie Minogue │ Slow                      │ 0.5687 │
+│    4 │ Tom Jones     │ Dance Of Love             │ 0.5534 │
+│    5 │ Kylie Minogue │ Step Back In Time         │ 0.5534 │
+│    6 │ Puff Daddy    │ Step Into A World (Remix) │ 0.5432 │
+│    7 │ Neil Sedaka   │ You're Knockin'me Out     │ 0.5390 │
+│    8 │ Usher         │ Dj Got Us Falling In Love │ 0.5335 │
+│    9 │ ABBA          │ Dancing Queen             │ 0.5300 │
+│   10 │ Cliff Richard │ Do You Wanna Dance?       │ 0.5266 │
+└──────┴───────────────┴───────────────────────────┴────────┘
+
+Query: traditional cambodian wedding music
+                        Search Results                        
+┏━━━━━━┳━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┓
+┃ Rank ┃ Artist           ┃ Song                    ┃  Score ┃
+┡━━━━━━╇━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━┩
+│    1 │ Oasis            │ Manuk Dadali            │ 0.4332 │
+│    2 │ John Prine       │ Wedding Bells           │ 0.4126 │
+│    3 │ George Harrison  │ Roll Over Beethoven     │ 0.4109 │
+│    4 │ Freddie Aguilar  │ Minamahal Kita          │ 0.4034 │
+│    5 │ Regine Velasquez │ Kung Maibabalik Ko Lang │ 0.3881 │
+│    6 │ Utada Hikaru     │ Stay Gold               │ 0.3815 │
+│    7 │ Lata Mangeshkar  │ Dil Hoom Hoom Kare      │ 0.3720 │
+│    8 │ Regine Velasquez │ Akalain Ko Ba           │ 0.3660 │
+│    9 │ Imago            │ Akap                    │ 0.3655 │
+│   10 │ Freddie Aguilar  │ Bulag, Pipi At Bingi    │ 0.3624 │
+└──────┴──────────────────┴─────────────────────────┴────────┘
+
+Query: tiktok viral dance sound 2026
+                       Search Results                        
+┏━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┓
+┃ Rank ┃ Artist            ┃ Song                  ┃  Score ┃
+┡━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━┩
+│    1 │ Cliff Richard     │ Do You Wanna Dance?   │ 0.4772 │
+│    2 │ Cyndi Lauper      │ Jim Jive              │ 0.4748 │
+│    3 │ Steve Miller Band │ Fandango              │ 0.4743 │
+│    4 │ Kylie Minogue     │ Speakerphone          │ 0.4685 │
+│    5 │ Neil Sedaka       │ You're Knockin'me Out │ 0.4614 │
+│    6 │ Lady Gaga         │ Just Dance            │ 0.4555 │
+│    7 │ Falco             │ Shake                 │ 0.4511 │
+│    8 │ Cliff Richard     │ On The Beach          │ 0.4505 │
+│    9 │ Chaka Khan        │ Dance Wit Me          │ 0.4467 │
+│   10 │ Prince            │ D.M.S.R.              │ 0.4466 │
+└──────┴───────────────────┴───────────────────────┴────────┘

@@ -6,11 +6,17 @@ from sentence_transformers import SentenceTransformer
 from inference import build_index, load_config, print_results, search_index
 
 TEST_QUERIES = [
-    "melancholic acoustic ballad for a rainy morning",
-    "aggressive high-energy hype music",
-    "romantic slow dance song",
-    "nostalgic summer road trip anthem",
-    "dark brooding song about heartbreak",
+    "happy anniversary",
+    "party anthem for a Friday night club",
+    "sad piano song about losing someone",
+    "chill lo-fi vibe for studying",
+    "christmas holiday cheer song",
+    "motivational workout gym anthem",
+    "patriotic song about war and sacrifice",
+    "khmer song 2026",
+    "modern k-pop dance track",
+    "traditional cambodian wedding music",
+    "tiktok viral dance sound 2026",
 ]
 
 
