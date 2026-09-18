@@ -1,0 +1,25 @@
+# Model
+model:
+  base_model: "sentence-transformers/all-mpnet-base-v2"
+  embedding_dim: 768
+  projection_dim: null        # null = no projection head, use raw encoder output
+  max_seq_length: 384         # token limit per chunk, fed to the encoder
+
+# Data preprocessing / chunking
+data:
+  raw_csv: "data/spotify_millsongdata.csv"
+  processed_dir: "data/processed"
+  chunk_size: 200              # tokens per lyrics chunk
+  chunk_overlap: 30            # token overlap between consecutive chunks
+  min_lyrics_length: 20        # drop songs with fewer characters than this
+
+# Evaluation (evaluate.py) - qualitative test queries
+eval:
+  top_k: [1, 5, 10]
+  device: "auto"                # "auto" | "cpu" | "cuda" | "mps"
+
+# Inference / search index (inference.py)
+index:
+  embeddings_path: "data/index/song_embeddings_mpnet.pkl"
+  top_k_results: 10
+  similarity_metric: "cosine"

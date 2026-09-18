@@ -7,6 +7,7 @@ import yaml
 from rich.console import Console
 from rich.table import Table
 from sentence_transformers import SentenceTransformer
+from tqdm import tqdm
 
 app = typer.Typer()
 console = Console()
@@ -29,7 +30,7 @@ def build_index(cfg: dict, force_rebuild: bool = False) -> None:
 
     song_vectors = []
 
-    for chunks in df["chunks"]:
+    for chunks in tqdm(df["chunks"], desc="Embedding songs", total=len(df)):
         chunk_embeddings = model.encode(chunks, convert_to_numpy=True, show_progress_bar=False)
         song_vector = chunk_embeddings.mean(axis=0)
         song_vectors.append(song_vector)
