@@ -22,7 +22,7 @@ TEST_QUERIES = [
 
 def main():
     parser = argparse.ArgumentParser(description="Qualitative vibe-search evaluation")
-    parser.add_argument("--config", type=str, default="configs/network_configs.yml")
+    parser.add_argument("--config", type=str, default="configs/network_configs_mpnet.yml")
     parser.add_argument("--top-k", type=int, default=None)
     args = parser.parse_args()
 
